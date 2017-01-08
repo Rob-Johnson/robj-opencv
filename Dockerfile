@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:12.04.5
 
 RUN echo 'deb http://archive.ubuntu.com/ubuntu precise multiverse' >> /etc/apt/sources.list
 RUN apt-get update
